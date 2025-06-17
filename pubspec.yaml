@@ -1,0 +1,44 @@
+
+name: app_free
+description: "Gerenciamento de hábitos saudáveis."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  pdf: ^3.10.4
+  printing: ^5.11.0
+  share_plus: ^7.0.0
+  flutter:
+    sdk: flutter
+  intl: 0.19.0
+  flutter_localizations:
+    sdk: flutter
+  sqflite: ^2.3.0
+  path_provider: ^2.0.15
+  cupertino_icons: ^1.0.8
+  fl_chart: ^0.64.0
+  flutter_local_notifications: 16.3.3
+  timezone: ^0.9.2
+  shared_preferences: ^2.2.2
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1 # verifique a versão mais recente
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.ico" # ou o caminho que você escolher
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/imagens/logo.png
